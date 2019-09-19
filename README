@@ -1,0 +1,76 @@
+Name: Tianchen Zhang
+USC NetId:4347909915
+CSCI 455 PA1
+Fall 2019
+
+----------------------------------------------
+CERTIFY IT'S YOUR WORK
+
+"I certify that the work submitted for this assignment does not
+violate USC's student conduct code.  In particular, the work is my
+own, not a collaboration, and does not involve code created by other
+people, except for the the resources explicitly mentioned in the CS 455
+Course Syllabus.  And I did not share my solution or parts of it with
+other students in the course."
+
+Initial below to "sign" the above statement:
+
+TZ
+----------------------------------------------
+ACKNOWLEDGE ANY OUTSIDE SOURCES
+
+List here any code you submitted for this assignment that was written
+with significant help of a course staff member, or code used from the
+textbook.  Be specific about what methods or algorithms are involved,
+and what sections of the textbook are involved (if applicable): [you do
+not need to list any of the code that we wrote for the assignment,
+i.e., the contents of the starter files for the assignment]
+
+
+Code snippet from the assignment 1 description page and that's it.
+
+----------------------------------------------
+KNOWN BUGS or LIMITATIONS:
+
+
+7000 Max trail limits (Java Recursive Limitation)
+----------------------------------------------
+ANY OTHER NOTES FOR THE GRADER:
+
+All codework edited and compiled under MacOS Mojave 10.14.2 using IntelliJ IDEA Utimate Edition 2019.
+----------------------------------------------
+ANSWERS TO ASSIGNMENT README QUESTIONS (if applicable):
+QUESTIONS:
+1.In CS 455 what code from the web are you allowed to use in your
+assignment solution, assuming you modify that code once you get it?
+(No clue? Hint: Reread the syllabus.)
+Note: no need to mention the "starter files" for the assignment in your answer.
+
+ANSWER: Using code from a solution or adapted solution to an assignment found on the web
+is not allowed by the code of conduct;
+
+2.What is the probability of each of the three outcomes in a trial: two heads,
+one head and one tail, and two tails? Why is one of them different than the other two?
+
+ANSWER: the probablity of each of the three outcomes are 25%, 50%, and 25%. There are
+four combinations for the outcomes: HH,TH,HT,TT; the TH and HT are the same thus resulting
+one head and one tail to become 50%.
+
+3.Roughly how many trials do you need to do before you mostly get results
+within 1% of these probabilities? Do several simulations using your program to determine an answer to this.
+
+ANSWER: Roughly 1000 trails;
+
+4.Roughly how many trials can you do before it crashes with an overflow error?
+State the largest value you tried where it still worked correctly, and one where it overflowed.
+You can get an idea of what general values to try by looking at the limits on Java integers
+(see Section 4.1.1 of the text). Play around with your program to verify that it actually
+works for very large values that are within the limits. Note: this kind of testing can
+sometimes turn up bugs, so it's good to do. Warning: For very large values you may have to
+wait a fair amount of time before you get the results.
+
+ANSWER: 7000, which is the max recursive call limit in Java. Please refer CoinTossSimulator.java:81, where
+recursive method was used to simulate coin toss.
+
+
+
